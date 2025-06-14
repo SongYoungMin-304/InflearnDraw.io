@@ -42,6 +42,12 @@
         <mxCell id="V_C6_iJeV9ZZTWs0v1Yz-4" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="350" y="380" width="60" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="V_C6_iJeV9ZZTWs0v1Yz-8" value="쿼리수행" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="380" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V_C6_iJeV9ZZTWs0v1Yz-9" value="결과" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="420" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
