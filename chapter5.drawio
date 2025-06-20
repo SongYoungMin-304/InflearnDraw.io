@@ -4,6 +4,94 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KoG7eJsrAb1A95pmqb80-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KoG7eJsrAb1A95pmqb80-1" target="KoG7eJsrAb1A95pmqb80-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-1" value="SecurityAutoConfiguration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KoG7eJsrAb1A95pmqb80-2" target="KoG7eJsrAb1A95pmqb80-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-2" value="SpringBootWebSecurityConfiguration" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="200" width="215" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-4" value="1) http.formLogin&lt;br&gt;&amp;nbsp;-&amp;gt; filter 적용&lt;br&gt;&lt;br&gt;2) http.build&lt;br&gt;&amp;nbsp; this.beforInit();&lt;br&gt;&amp;nbsp; this.init();&lt;br&gt;&amp;nbsp; this.beforeConfigure(); -&amp;gt; providerManager 세팅&lt;br&gt;&amp;nbsp; this.configure();&lt;br&gt;&amp;nbsp; ...&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;align=left;" vertex="1" parent="1">
+          <mxGeometry x="286.5" y="320" width="282" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KoG7eJsrAb1A95pmqb80-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-6" value="AuthenticationConfiguration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="200" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.005;entryY=0.644;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KoG7eJsrAb1A95pmqb80-9" target="KoG7eJsrAb1A95pmqb80-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="830" y="423" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-9" value="InitializeUserDetailsBeanManagerConfigurer&lt;br&gt;-&amp;gt; userDetailService 를 가져다가 DaoAuthenticationProvider을 만든다." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="640" y="280" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KoG7eJsrAb1A95pmqb80-13" target="KoG7eJsrAb1A95pmqb80-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-13" value="UsernamePasswordAuthenticationFilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="600" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KoG7eJsrAb1A95pmqb80-14" target="KoG7eJsrAb1A95pmqb80-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-14" value="AuthenticationProvider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="600" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KoG7eJsrAb1A95pmqb80-16" target="KoG7eJsrAb1A95pmqb80-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-16" value="AbstractUserDetailsAuthenticationProvider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="680" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KoG7eJsrAb1A95pmqb80-18" target="KoG7eJsrAb1A95pmqb80-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-18" value="DaoAuthenticationProvider" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="377.5" y="760" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-20" value="UserDetailService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="840" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KoG7eJsrAb1A95pmqb80-21" target="KoG7eJsrAb1A95pmqb80-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-21" value="xxxUserDetailService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="760" width="195" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KoG7eJsrAb1A95pmqb80-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="860" as="sourcePoint" />
+            <mxPoint x="420" y="860" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610" y="800" />
+              <mxPoint x="610" y="820" />
+              <mxPoint x="420" y="820" />
+              <mxPoint x="420" y="860" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-29" value="InitializeUserDetailsBeanManagerConfigurer&lt;br&gt;-&amp;gt; userDetailService 를 가져다가 DaoAuthenticationProvider을 만든다." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="510" width="380" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-30" value="가져온 사용자 정보와 넘어온 데이터의 비밀번호를 비교한다." style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="259" y="860" width="313.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KoG7eJsrAb1A95pmqb80-31" value="사용자 정보를 가져오는 부분은 직접 커스텀 필요" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="810" y="760" width="255" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
