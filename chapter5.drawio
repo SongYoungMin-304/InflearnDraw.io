@@ -116,6 +116,12 @@
         <mxCell id="1V_EwookAHwL95XN3xod-15" value="인증 로직을 커스텀 가능" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF3333;" vertex="1" parent="1">
           <mxGeometry x="590" y="1135" width="140" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="1V_EwookAHwL95XN3xod-16" value="JwtAuthenticationFilter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1280" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="1V_EwookAHwL95XN3xod-17" value="해당 필터 적용으로 인해서, 요청을 가로 채고 token을 통해 인증 이후 사용자 정보를 가져와서 인가 처리" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeColor=#FF3333;" vertex="1" parent="1">
+          <mxGeometry x="170" y="1330" width="500" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
