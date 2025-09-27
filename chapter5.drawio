@@ -1,9 +1,12 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.1.2">
   <diagram name="페이지-1" id="_uKqYhUVSAW-e24wOVBT">
-    <mxGraphModel dx="2118" dy="1158" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2383" dy="1303" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-59" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="931" y="5560" width="290" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="LL_CF1VQLuUgH4qGAzld-106" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1539.25" y="3890" width="640" height="720" as="geometry" />
         </mxCell>
@@ -497,6 +500,11 @@
         <mxCell id="_oPeTRLd6oF9zhzp3uNH-6" value="vcc-core-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="435" y="5840" width="107.5" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="_oPeTRLd6oF9zhzp3uNH-7" target="_oPeTRLd6oF9zhzp3uNH-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="489" y="6040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_oPeTRLd6oF9zhzp3uNH-7" value="vcc-consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="435" y="5920" width="107.5" height="40" as="geometry" />
         </mxCell>
@@ -514,12 +522,27 @@
             <mxPoint x="860" y="5860.000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_oPeTRLd6oF9zhzp3uNH-13" target="_oPeTRLd6oF9zhzp3uNH-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="726.2500000000005" y="5763" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="_oPeTRLd6oF9zhzp3uNH-13" value="vcc-internal-api" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="672.5" y="5843" width="107.5" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_oPeTRLd6oF9zhzp3uNH-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=52.5;entryPerimeter=0;" edge="1" parent="1" source="_oPeTRLd6oF9zhzp3uNH-14" target="_oPeTRLd6oF9zhzp3uNH-38">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1210" y="5900.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_oPeTRLd6oF9zhzp3uNH-14" target="_oPeTRLd6oF9zhzp3uNH-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1076.25" y="5800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_oPeTRLd6oF9zhzp3uNH-14" target="_oPeTRLd6oF9zhzp3uNH-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="942.5000000000005" y="5900" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_oPeTRLd6oF9zhzp3uNH-14" value="vcc-batch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -616,6 +639,24 @@
         </mxCell>
         <mxCell id="_oPeTRLd6oF9zhzp3uNH-54" value="mastercard" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="700" y="5275" width="106.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-57" value="씨티카드" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="956.25" y="5580" width="106.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-58" value="우리카드" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1086.25" y="5580" width="106.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-62" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;승인 매입 내역 요청&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1086.25" y="5730" width="98.75" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_oPeTRLd6oF9zhzp3uNH-64" target="_oPeTRLd6oF9zhzp3uNH-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-64" value="factory" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1023.3800000000001" y="5803" width="106.25" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_oPeTRLd6oF9zhzp3uNH-66" value="&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;vcc 발급요청&lt;/span&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="648.13" y="5450" width="98.75" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
